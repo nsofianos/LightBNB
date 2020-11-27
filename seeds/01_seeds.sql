@@ -1,8 +1,8 @@
 
 INSERT INTO users (name, email, password)
-VALUES ('Nik Sofianos', 'ns@email.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-('Jim Jones', 'jj@email.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u'),
-('Joe Fresh', 'jf@email.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
+VALUES ('Nik Sofianos', 'ns@email.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+('Jim Jones', 'jj@email.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
+('Joe Fresh', 'jf@email.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code)
 VALUES (1, 'bing bang', 'description', 'https://www.pexels.com/photo/photo-of-man-wearing-sunglasses-1680172/', 'https://www.pexels.com/photo/photo-of-man-wearing-sunglasses-1680172/', 43291, 3, 2, 4, 'Canada', '1234 fake street', 'Vancouver', 'British Columbia', 'V2V 2V2'),
